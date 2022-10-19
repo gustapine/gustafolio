@@ -1,0 +1,92 @@
+
+.container-fluid{
+    padding: 3% 15%;
+}
+
+body{
+    min-height: 100vh;
+    background-color: black;
+    font-family: 'Manrope', sans-serif;
+}
+
+.navbar-brand{
+    font-family: 'Silkscreen', cursive;
+    font-size: 5em;
+}
+.collapse{
+    font-family: 'Silkscreen', cursive;
+}
+
+#title {
+    background-color: black ;
+    font-family: 'Manrope', sans-serif;
+}
+/* fonts */
+.lora{
+    font-family: 'Manrope', sans-serif;
+}
+h1{
+    font-family: 'Manrope', sans-serif;
+    color: beige;
+    font-size: 3rem;
+}
+
+p{
+    font-family: 'Manrope', sans-serif;
+    color: beige;
+    font-size: 1.5rem;
+
+}
+
+.entry{
+    padding-top: 10em;
+    padding-left: 6em;
+}
+@media (max-width: 900px){
+    h1{
+        font-family: 'Manrope', sans-serif;
+        color: beige;
+        font-size: 2.5rem;
+        text-align: center;
+    }
+
+    p{
+        font-family: 'Manrope', sans-serif;
+        color: beige;
+        font-size: 1.1rem;
+        text-align: center;
+
+    }
+
+    .entry{
+        padding-top: 0em;
+        padding-left: 0em;
+    }
+}  
+
+.globo{
+    /* width: 45vw;
+    height: 100vh; */
+    /* background-size: cover;
+    scale: 16/9; */
+    height: 570px;
+    width: 570px;
+    margin-top: 2em;
+} 
+
+.imgG {
+    animation: 200s rotate360 infinite linear; 
+}
+
+@keyframes rotate360 {
+    to { transform: rotate(360deg); 
+}
+}
+
+@media (max-width: 900px){
+    .globo{
+        margin-top: 2em;
+        width: 320px;
+        height: 320px;
+    }
+}  
