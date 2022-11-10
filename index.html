@@ -29,7 +29,7 @@
 <body>
 
 <section id="title">
-    <div class="container-fluid">
+    <div id="Home" class="container-fluid">
         <nav class="navbar navbar-expand-lg navbar-dark">
         
           <a class="navbar-brand title" href="#">GD</a>
@@ -39,16 +39,13 @@
           <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
             <ul class="navbar-nav ms-auto">
               <li class="nav-item">
-                <a class="nav-link" aria-current="page" href="#">Home</a>
+                <a class="nav-link"  href="#Home">Home</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Features</a>
+                <a class="nav-link" href="#Embreve">Sobre</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Pricing</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link ">Disabled</a>
+                <a class="nav-link" href="#trabalhos">Trabalhos</a>
               </li>
             </ul>
           </div>
@@ -56,21 +53,53 @@
         </nav>
 
 
-        <div class="row">
+        <div  class="row">
           
-        <div class="col-lg-6 entry">
-          <h1>Eu me chamo Gustavo </h1>    
-          <p>um entusiasta de programação</p>
-          <button class="btn btn-dark btn-lg" type="button"><i class="fa-brands fa-linkedin-in"></i> LinkedIn</button>
-          <button class="btn btn-outline-light btn-lg" type="button"><i class="fa-brands fa-github"></i> GitHub</button>
+          <div class="col-lg-6 entry">
+            <h1>Eu me chamo Gustavo </h1>    
+            <p>um entusiasta de programação</p>
+            <button class="btn btn-dark btn-lg" type="button"><i class="fa-brands fa-linkedin-in"></i><a href="https://www.linkedin.com/in/gustavo-dias-218a38220/" target="_blank"> LinkedIn</a></button>
+            <button class="btn btn-outline-light btn-lg" type="button"><i class="fa-brands fa-github"></i><a href="https://github.com/gustapine" target="_blank"> GitHub</a></button>
+          </div>
+
+
+          <div class="col-lg-6">
+              <img class="globo imgG" src=images/globo.png alt="TERRA">
+          </div>
+
         </div>
 
 
-        <div class="col-lg-6">
-            <img class="globo imgG" src=images/globo.png alt="TERRA">
+        <div  id="trabalhos" class="row row2">
+          <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <a href="https://kitbateria.vercel.app/" target="_blank"><img src="images/kitbateria.png" class="d-block w-100" alt="kitbateria"></a>
+              </div>
+              <div class="carousel-item">
+                <a href="https://jogo-de-dados-tan.vercel.app/" target="_blank"><img src="images/dados.png" class="d-block w-100" alt="dados"></a>
+              </div>
+              <div class="carousel-item">
+                <a href="//www.google.com" target="_blank"><img src="images/Em brev.jpg" class="d-block w-100" alt="Em breve"></a>
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
         </div>
 
+        <div id="Embreve" class="row">
+
+          <h2>EM BREVE, ando sem tempo, volte pra <a href="#Home">casa</a>...</h2>
+
         </div>
+      
     </div> 
 
 </section>
