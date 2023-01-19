@@ -1,17 +1,27 @@
 
-.container-fluid{
+.container-fluid1{
     padding: 3% 15%;
 }
 
+
+
 body{
     min-height: 100vh;
-    background-color: black;
     font-family: 'Manrope', sans-serif;
 }
 
 .navbar-brand{
     font-family: 'Silkscreen', cursive;
     font-size: 3em;
+}
+
+.Home{
+    background-color: black;
+}
+
+a{
+    text-decoration: none;
+    color: currentColor;
 }
 /* .collapse{
     font-family: 'Silkscreen', cursive;
@@ -26,18 +36,14 @@ body{
 } */
 
 #title {
-    background-color: black ;
+    /*background-color: black ;*/   
     font-family: 'Manrope', sans-serif;
 }
 /* fonts */
 .lora{
     font-family: 'Manrope', sans-serif;
 }
-h1{
-    font-family: 'Manrope', sans-serif;
-    color: beige;
-    font-size: 3rem;
-}
+
 
 /* #Embreve{
     margin-top: 50em;
@@ -45,59 +51,73 @@ h1{
 
 h2{
     font-family: 'Manrope', sans-serif;
-    color: beige;
+    color: white;
     font-size: 3rem;
     text-align: center;
     margin: 15em,0em,15em,0em; 
 }
 
-p{
-    font-family: 'Manrope', sans-serif;
-    color: beige;
-    font-size: 1.5rem;
-    margin-left: 2.5em;
 
+/*TÍTULO*/
+h1{
+    font-family: 'Manrope', sans-serif;
+    color: white;
+    font-size: 250%;
+}
+h6{
+    font-family: 'Manrope', sans-serif;
+    color: white;
+    font-size: 100%;
+    margin-left: 20%;
+
+}
+
+.btn{
+    margin-left: 10%;
+    margin-top: 0.5em;
+    
 }
 
 .entry{
     padding-top: 10em;
-    padding-left: 2em;
-    
+    /*padding-left: 2em;*/  
 }
 
 a{
     color: currentColor;
     text-decoration: none;
 }
+/*--------------------------------*/
 
-.btn{
-    margin-left: 3em;
-    margin-top: 0.5em;
-    
-}
+/*PARTE DOS TRABALHOS*/
 
 .row{
     margin-bottom: 8em;
 }
-
-.row2{
-    padding-top: 8em;
-    padding-bottom: 18em;
+.container-fluid2{
+    padding: 10% 15% 2% 15%;
+   background-color: rgb(8, 8, 8);
 }
+
+
+
+
+/*------------*/
+
 
 @media (max-width: 900px){
     
 
     h1{
         font-family: 'Manrope', sans-serif;
-        color: beige;
+        color: white;
         font-size: 1.5rem;
         text-align: center;
     }
 
     p{
         font-family: 'Manrope', sans-serif;
-        color: beige;
+        color: white;
         font-size: 1.1rem;
         text-align: center;
 
@@ -143,3 +163,4 @@ a{
         height: 280px;
     }
 }  
+
