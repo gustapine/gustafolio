@@ -29,80 +29,124 @@
 <body>
 
 <section id="title">
-    <div id="Home" class="container-fluid">
+    <div class="container-fluid1 Home">
+      <!--Capa--> 
         <nav class="navbar navbar-expand-lg navbar-dark">
-        
-          <a class="navbar-brand title" href="#">GD</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
-            <ul class="navbar-nav ms-auto">
-              <li class="nav-item">
-                <a class="nav-link"  href="#Home">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#Embreve">Sobre</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#trabalhos">Trabalhos</a>
-              </li>
-            </ul>
-          </div>
-        
-        </nav>
-
-
+            <a class="navbar-brand title " href="#">GD</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+              <ul class="navbar-nav ms-auto">
+                <li class="nav-item">
+                  <a class="nav-link"  href="#Home">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#trabalhos">Trabalhos</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#Embreve">Sobre</a>
+                </li>
+              </ul>
+            </div>
+          </nav>
         <div  class="row">
-          
           <div class="col-lg-6 entry">
             <h1>Eu me chamo Gustavo </h1>    
-            <p>um entusiasta de programação</p>
-            <button class="btn btn-dark btn-lg" type="button"><i class="fa-brands fa-linkedin-in"></i><a href="https://www.linkedin.com/in/gustavo-dias-218a38220/" target="_blank"> LinkedIn</a></button>
-            <button class="btn btn-outline-light btn-lg" type="button"><i class="fa-brands fa-github"></i><a href="https://github.com/gustapine" target="_blank"> GitHub</a></button>
+            <h6>um entusiasta de programação</h6>
+            <a href="https://www.linkedin.com/in/gustavo-dias-218a38220/" target="_blank"> <button class="btn btn-dark btn-lg" type="button"><i class="fa-brands fa-linkedin-in"></i> LinkedIn</button></a>
+            <a href="https://github.com/gustapine" target="_blank"><button class="btn btn-outline-light btn-lg" type="button"><i class="fa-brands fa-github"></i> GitHub</button></a>
           </div>
-
-
           <div class="col-lg-6">
               <img class="globo imgG" src=images/globo.png alt="TERRA">
           </div>
-
         </div>
-
-
-        <div  id="trabalhos" class="row row2">
-          <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
-            <div class="carousel-inner">
-              <div class="carousel-item active">
-                <a href="https://kitbateria.vercel.app/" target="_blank"><img src="images/kitbateria.png" class="d-block w-100" alt="kitbateria"></a>
-              </div>
-              <div class="carousel-item">
-                <a href="https://jogo-de-dados-tan.vercel.app/" target="_blank"><img src="images/dados.png" class="d-block w-100" alt="dados"></a>
-              </div>
-              <div class="carousel-item">
-                <a href="//www.google.com" target="_blank"><img src="images/Em brev.jpg" class="d-block w-100" alt="Em breve"></a>
-              </div>
+    </div>
+    <!---------->
+    <div class="container-fluid2">
+      <!--2 bloco-->
+      <div class="container text-center">
+        <div  id="trabalhos" class="row row-cols-1 row-cols-md-3 g-4">
+            <div class="col  primeiro">
+              <a href="https://kitbateria.vercel.app/" target="_blank"> 
+                <div class="card h-100">
+                  <img src="images/kitbateria.png" class="card-img-top primeiro" alt="kitbateria">
+                  <div class="card-body primeiro">
+                    <h5 class="card-title">Kit Bateria</h5>
+                    <p class="card-text">
+                      Este foi o primeiro jogo feito para praticar os meus conhecimentos sobre Javascript. 
+                      Através dele, você consegue acessar aos sons de uma bateria.
+                    </p>
+                  </div>
+                </div>
+              </a>
             </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
-              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Previous</span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
-              <span class="carousel-control-next-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Next</span>
-            </button>
+          <div class="col  segundo">
+            <a href="https://jogo-de-dados-tan.vercel.app/" target="_blank">
+              <div class="card h-100">
+                <img src="images/dados.png" class="card-img-top" alt="Dados">
+                <div class="card-body">
+                  <h5 class="card-title">Jogo de Dados</h5>
+                  <p class="card-text">Este foi o meu segundo jogo feito para praticar os meus conhecimentos sobre Javascript. 
+                    Basicamente, quem tirar o maior número em um dos dados, ganha.</p>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="col  terceiro">
+            <a href="#Home">
+              <div class="card h-100">
+                <img src="images/Em brev.jpg" class="card-img-top" alt="Em breve">
+                <div class="card-body">
+                  <h5 class="card-title">Em breve</h5>
+                  <p class="card-text">Desenvolvendo novos projetos que logo estarão ao ar.</p>
+                </div>
+              </div>
+            </a>
           </div>
         </div>
-
-        <div id="Embreve" class="row">
-
+      </div>
+    </div>
+    
+    <div class="container-fluid1 Home">
+      <!--3 bloco-->
+      <div id="Embreve">
           <h2>EM BREVE, ando sem tempo, volte pra <a href="#Home">casa</a>...</h2>
-
-        </div>
-      
-    </div> 
+      </div>
+      <!----------->
+    </div>
+     
 
 </section>
-      
+    
+
+<!--
+  
+  Carrosel
+  
+  <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <a href="https://kitbateria.vercel.app/" target="_blank"><img src="images/kitbateria.png" class="d-block w-100" alt="kitbateria"></a>
+    </div>
+    <div class="carousel-item">
+      <a href="https://jogo-de-dados-tan.vercel.app/" target="_blank"><img src="images/dados.png" class="d-block w-100" alt="dados"></a>
+    </div>
+    <div class="carousel-item">
+      <a href="//www.google.com" target="_blank"><img src="images/Em brev.jpg" class="d-block w-100" alt="Em breve"></a>
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div> -->
 </body>
 </html
+
+
+
