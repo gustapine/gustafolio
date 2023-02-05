@@ -45,17 +45,10 @@ a{
 }
 
 
-/* #Embreve{
-    margin-top: 50em;
-} */
-
-h2{
-    font-family: 'Manrope', sans-serif;
-    color: white;
-    font-size: 3rem;
+#Embreve{
     text-align: center;
-    margin: 15em,0em,15em,0em; 
-}
+} 
+
 
 
 /*TÍTULO*/
@@ -68,11 +61,14 @@ h6{
     font-family: 'Manrope', sans-serif;
     color: white;
     font-size: 100%;
-    margin-left: 20%;
 
 }
 
 .btn{
+    margin-top: 0.5em;
+}
+
+.b2{
     margin-left: 10%;
     margin-top: 0.5em;
     
@@ -80,7 +76,8 @@ h6{
 
 .entry{
     padding-top: 10em;
-    /*padding-left: 2em;*/  
+    /*padding-left: 2em;*/
+    text-align: center;  
 }
 
 a{
